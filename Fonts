@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Computer Club</h1>
+  <form>
+    <label for="name">bright BONIFACE:</label>
+    <input type="text" id="name" name="name" placeholder="BrightBoniface">
+
+    <label for="email">specha84@gmail.com:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="class">form one:</label>
+    <select id="class" name="class">
+      <option value="form-1">Form 1</option>
+      <option value="form-2">Form 2</option>
+    </select>
+
+    <fieldset>
+      <legend>Do you like computers?</legend>
+      <input type="radio" id="computers-yes" name="likes-computers" value="yes">
+      <label for="computers-yes">Yes</label>
+      <input type="radio" id="computers-no" name="likes-computers" value="no">
+      <label for="computers-no">No</label>
+    </fieldset>
+
+    <label for="message">I LIKE COMPUTER SCIENCE:</label>
+    <textarea id="message" name="message"></textarea>
+
+    <button type="submit">Join</button>
+  </form>
+</body>
+</html>
